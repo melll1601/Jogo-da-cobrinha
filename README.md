@@ -2,19 +2,15 @@
 
 Este projeto tem como objetivo a criação de um mini game com tela inicial personalizada, movimentação de personagem e interação com cenários, utilizando a biblioteca Pygame.
 
-📌 Funcionalidades Desenvolvidas
+# 📌 Funcionalidades Desenvolvidas
 
-Módulo	Descrição
-
-🧍 Movimentação	Personagem se move com as setas direcionais respeitando o sistema de coordenadas cartesianas.
-
-🖼️ Cenário	Imagem de fundo personalizada adicionada ao ambiente de jogo.
-
-🧑‍🎨 Personagem	Sprite em formato .png sem fundo, substituindo o personagem padrão.
-
-🔊 Áudio	Som de fundo adicionado à jogabilidade e à tela inicial.
-
-🖱️ Tela Inicial	Tela com botões como "Jogar", "Ajuda" e "Sair", com layout visual customizado.
+| Módulo           | Descrição                                                                                     |
+| ---------------- | --------------------------------------------------------------------------------------------- |
+| 🧍 Movimentação  | Personagem se move com as setas direcionais respeitando o sistema de coordenadas cartesianas. |
+| 🖼️ Cenário      | Imagem de fundo personalizada adicionada ao ambiente de jogo.                                 |
+| 🧑‍🎨 Personagem | Sprite em formato `.png` sem fundo, substituindo o personagem padrão.                         |
+| 🔊 Áudio         | Som de fundo adicionado à jogabilidade e à tela inicial.                                      |
+| 🖱️ Tela Inicial | Tela com botões como "Jogar", "Ajuda" e "Sair", com layout visual customizado.                |
 
 
 # 🛠️ Etapas de Desenvolvimento
