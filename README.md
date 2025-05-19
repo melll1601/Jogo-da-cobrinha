@@ -6,6 +6,7 @@ Este projeto tem como objetivo a criação de um mini game com tela inicial pers
 
 Atividade proposta pela professora Vanessa, atribuido dentro da matéria de Apps e Games da escola Sesi.
 
+# 🐍 Cobrinha =D — Game em Pygame
 
 <p align="left">
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
