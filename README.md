@@ -1,6 +1,12 @@
+# Turma 2934 🥸 - Melissa Rafaela Pereira
+
 # 🎮 Meu Game em Pygame
 
 Este projeto tem como objetivo a criação de um mini game com tela inicial personalizada, movimentação de personagem e interação com cenários, utilizando a biblioteca Pygame.
+
+Atividade proposta pela professora Vanessa, atribuido dentro da matéria de Apps e Games da escola Sesi.
+
+
 
 # 📌 Funcionalidades Desenvolvidas
 
