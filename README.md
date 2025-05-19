@@ -1,4 +1,4 @@
-#🎮 Meu Game em Pygame
+# 🎮 Meu Game em Pygame
 
 Este projeto tem como objetivo a criação de um mini game com tela inicial personalizada, movimentação de personagem e interação com cenários, utilizando a biblioteca Pygame.
 
@@ -17,7 +17,7 @@ Módulo	Descrição
 🖱️ Tela Inicial	Tela com botões como "Jogar", "Ajuda" e "Sair", com layout visual customizado.
 
 
-#🛠️ Etapas de Desenvolvimento
+# 🛠️ Etapas de Desenvolvimento
 
 1. 🔃 Movimentação do Personagem
 
@@ -41,7 +41,7 @@ Inserção de imagem de fundo, nova paleta de cores e som ambiente.
 | 🔗 Modelo base tela inicial | [Drive - Tela Inicial](https://drive.google.com/drive/folders/1W-X02WU8iPB3URivEH1NHgTV45qKIioQ?usp=sharing)               |
 | 📝 Tutorial tela inicial    | [Blog - Tela de Entrada](http://vemfazermatematicaegames.blogspot.com/2020/08/pygames-construindo-tela-de-entrada-do.html) |
 
-#🧾 Requisitos para rodar
+# 🧾 Requisitos para rodar
 
 Python 3.x
 
@@ -52,7 +52,7 @@ pip install pygame
 ```
 Coloque os arquivos de imagem e áudio na mesma pasta do script principal.
 
-#🚀 Ideia para o Futuro
+# 🚀 Ideia para o Futuro
 
 Melhorar a navegação entre as telas com transições suaves e adicionar fases ou desafios ao jogo.
 
