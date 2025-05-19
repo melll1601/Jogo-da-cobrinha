@@ -7,6 +7,11 @@ Este projeto tem como objetivo a criação de um mini game com tela inicial pers
 Atividade proposta pela professora Vanessa, atribuido dentro da matéria de Apps e Games da escola Sesi.
 
 
+<p align="center">
+<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
+
+</p>
+
 
 # 📌 Funcionalidades Desenvolvidas
 
@@ -53,6 +58,44 @@ Biblioteca pygame
 pip install pygame
 ```
 Coloque os arquivos de imagem e áudio na mesma pasta do script principal.
+
+
+# 🔎😺 Acesse o Repositório no GitHub
+Você pode acessar o código fonte do projeto através do link a seguir:<a href="https://github.com/Liiiiisssz/WegOne.git" style="font-size: 23px; margin-top: 10px; padding: 10px; text-decoration: none; color: rgb(3, 0, 46); display: block;">
+<sub>Acessar o código fonte do projeto</sub>
+</a> 
+<p>    </p>
+
+# 🛠️ Abrir e rodar o projeto
+
+OPÇÃO 1️⃣: Baixando o Arquivo.
+
+01) Baixando o projeto.ZIP 📩: Primeiramente você terá que baixar o arquivo do projeto no link mencionado anteriormente, para isto você deve clicar em **<> Code** especificada em azul/verde, e selecionar a opção baixar Download ZIP.
+
+
+
+2) Extrair o arquivo.ZIP 📁: Após baixar o arquivo.ZIP, encontre ele na pasta downloads e extraia o arquivo.
+
+
+3) Abra a IDE 🔗: Após extrair o arquivo, abra a IDE que deseja executar o projeto:
+
+
+4) Importando o projeto 📥: Importe o projeto, a localização dependrá da IDE que você vai utilizar.
+
+
+<p>    </p>
+
+OPÇÃO 2️⃣: Clonar com Git.
+Abra o terminal (ou prompt) 🖥️
+
+```bash
+git clone https://github.com/usuario/repositorio.git
+```
+
+
+# 🏃‍♂️📂 Execute o Projeto:
+
+Se você possui a extensão no VScode você pode rodar clicando no play. É importante que você tenha o pygame instalado, caso contrário ele não vai rodar.
 
 # 🚀 Ideia para o Futuro
 
