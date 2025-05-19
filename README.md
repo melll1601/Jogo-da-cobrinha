@@ -60,13 +60,8 @@ pip install pygame
 Coloque os arquivos de imagem e áudio na mesma pasta do script principal.
 
 
-# 🔎😺 Acesse o Repositório no GitHub
-Você pode acessar o código fonte do projeto através do link a seguir:<a href="https://github.com/Liiiiisssz/WegOne.git" style="font-size: 23px; margin-top: 10px; padding: 10px; text-decoration: none; color: rgb(3, 0, 46); display: block;">
-<sub>Acessar o código fonte do projeto</sub>
-</a> 
-<p>    </p>
+# 🔎😺 Abrir e rodar o projeto
 
-# 🛠️ Abrir e rodar o projeto
 
 OPÇÃO 1️⃣: Baixando o Arquivo.
 
