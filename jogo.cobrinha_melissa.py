@@ -4,7 +4,8 @@ import random
 
 pygame.init()
 
-
+som_comer = pygame.mixer.Sound("roblox.mp3")
+som_morrer = pygame.mixer.Sound("morrer.mp3")
 pygame.mixer.music.load("musica.mp3")
 pygame.mixer.music.set_volume(0.3)
 pygame.mixer.music.play(-1)
@@ -148,6 +149,8 @@ def jogar():
         if cobra[0] == fruta:
             fruta = nova_fruta()
             pontuacao += 1
+            som_comer.play()
+
         else:
             cobra.pop()
 
@@ -156,6 +159,7 @@ def jogar():
             cobra[0][1] < 0 or cobra[0][1] >= ALTURA or
             cobra[0] in cobra[1:]
         ):
+            som_morrer.play()
             break
 
         desenhar_fundo()
