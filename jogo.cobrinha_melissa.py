@@ -4,8 +4,8 @@ import random
 
 pygame.init()
 
-som_comer = pygame.mixer.Sound("roblox.mp3")
-som_morrer = pygame.mixer.Sound("morrer.mp3")
+som_comer = pygame.mixer.Sound("comendo.wav")
+som_morrer = pygame.mixer.Sound("morre.mp3")
 pygame.mixer.music.load("musica.mp3")
 pygame.mixer.music.set_volume(0.3)
 pygame.mixer.music.play(-1)
