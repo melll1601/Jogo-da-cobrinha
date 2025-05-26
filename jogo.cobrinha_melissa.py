@@ -95,8 +95,11 @@ def mostrar_ajuda():
         desenhar_fundo()
         desenhar_texto("Ajuda ", AMARELO, 100)
         desenhar_texto("Use as setas para mover", BRANCO, 180)
-        desenhar_texto("Coma a fruta vermelha para crescer", BRANCO, 220)
-        desenhar_texto("Evite bater nas paredes e em si mesmo", BRANCO, 260)
+        desenhar_texto("Coma a fruta para crescer", BRANCO, 220)
+        desenhar_texto("Evite bater nas paredes", BRANCO, 260)
+        desenhar_texto("e em si mesmo", BRANCO, 260)
+        desenhar_texto(" ", BRANCO, 260)
+
         desenhar_texto("Pressione [ESC] para voltar", BRANCO, 320)
         pygame.display.update()
 
