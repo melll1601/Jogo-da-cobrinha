@@ -7,12 +7,12 @@ pygame.init()
 som_comer = pygame.mixer.Sound("comendo.wav")
 som_morrer = pygame.mixer.Sound("morre.mp3")
 pygame.mixer.music.load("musica.mp3")
-pygame.mixer.music.set_volume(0.3)
+pygame.mixer.music.set_volume(500.00)
 pygame.mixer.music.play(-1)
 
 LARGURA, ALTURA = 600, 600
 TELA = pygame.display.set_mode((LARGURA, ALTURA))
-pygame.display.set_caption(" Cobrinha =D")
+pygame.display.set_caption(" Cobrinha :D")
 
 PRETO = (0, 0, 0)
 VERDE_CLARO = (0, 255, 100)
@@ -91,31 +91,55 @@ def botao(texto, x, y, largura, altura, cor, acao=None):
 
 def mostrar_ajuda():
     ajuda_ativa = True
+    etapa = 0  # Etapas do tutorial
+    mensagens = [
+        "Use as setas para mover",
+        "Coma a fruta para crescer",
+        "Evite bater nas paredes",
+        "Evite colidir com o próprio corpo",
+        "Boa sorte! :)",
+        "Clique para voltar ao menu"
+    ]
+
     while ajuda_ativa:
         desenhar_fundo()
-        desenhar_texto("Ajuda ", AMARELO, 100)
-        desenhar_texto("Use as setas para mover", BRANCO, 180)
-        desenhar_texto("Coma a fruta para crescer", BRANCO, 220)
-        desenhar_texto("Evite bater nas paredes", BRANCO, 260)
-        desenhar_texto("e em si mesmo", BRANCO, 260)
-        desenhar_texto(" ", BRANCO, 260)
+        desenhar_texto("Tutorial", AMARELO, 100)
 
-        desenhar_texto("Pressione [ESC] para voltar", BRANCO, 320)
+        # Mostrar mensagem da etapa atual
+        if etapa < len(mensagens):
+            desenhar_texto(mensagens[etapa], BRANCO, 220)
+        else:
+            ajuda_ativa = False
+            break
+
+        desenhar_texto("Clique para continuar", ROSA_MEDIO, 500)
+
         pygame.display.update()
 
         for evento in pygame.event.get():
             if evento.type == pygame.QUIT:
                 pygame.quit()
                 sys.exit()
-            if evento.type == pygame.KEYDOWN and evento.key == pygame.K_ESCAPE:
+            elif evento.type == pygame.MOUSEBUTTONDOWN:
+                etapa += 1
+            elif evento.type == pygame.KEYDOWN and evento.key == pygame.K_ESCAPE:
                 ajuda_ativa = False
 
 def game_over(pontuacao):
-    desenhar_fundo()
-    desenhar_texto(" GAME OVER =(", VERMELHO, ALTURA // 2 - 40)
-    desenhar_texto(f"Pontuação: {pontuacao}", BRANCO, ALTURA // 2)
-    desenhar_texto("Clique [ESPAÇO] para jogar novamente", BRANCO, ALTURA // 2 + 40)
-    pygame.display.update()
+    while True:
+        desenhar_fundo()
+        desenhar_texto(" GAME OVER =(", VERMELHO, ALTURA // 2 - 40)
+        desenhar_texto(f"Pontuação: {pontuacao}", BRANCO, ALTURA // 2)
+        desenhar_texto("Clique para voltar ao MENU", BRANCO, ALTURA // 2 + 40)
+        pygame.display.update()
+
+        for evento in pygame.event.get():
+            if evento.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()
+
+            elif evento.type == pygame.MOUSEBUTTONDOWN:
+                return  # Também volta para o jogo
 
     while True:
         for evento in pygame.event.get():
