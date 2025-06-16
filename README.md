@@ -9,7 +9,7 @@ Atividade proposta pela professora Vanessa, atribuido dentro da matéria de Apps
 # 🗂️ Arquivos do Projeto
 📁 Acesse a pasta completa com o código, imagens e som no Google Drive:
 
-🔗 https://drive.google.com/drive/folders/1VHUIkDBb4wsK-uwI55grrJ4PZyjYxJYi?usp=sharing
+🔗 https://drive.google.com/drive/folders/1akaq2w0OdtUMzJ-UK5sfZkxxJ5rzpKBc?usp=drive_link
 
 
 # 🐍 Cobrinha =D — Game em Pygame
